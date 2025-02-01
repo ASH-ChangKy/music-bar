@@ -17,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy" : "gh-pages -d dist"
   },
   "eslintConfig": {
@@ -40,5 +41,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://github.com/ASH-ChangKy/music-bar/"
+  "homepage": "https://github.com/ASH-ChangKy/music-bar"
 }
