@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ASH-ChangKy/music-bar/%20/static/css/main.af191043.css",
-    "main.js": "/ASH-ChangKy/music-bar/%20/static/js/main.2b4b811f.js",
-    "static/js/453.81ede328.chunk.js": "/ASH-ChangKy/music-bar/%20/static/js/453.81ede328.chunk.js",
-    "static/media/logo.svg": "/ASH-ChangKy/music-bar/%20/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ASH-ChangKy/music-bar/%20/index.html",
-    "main.af191043.css.map": "/ASH-ChangKy/music-bar/%20/static/css/main.af191043.css.map",
-    "main.2b4b811f.js.map": "/ASH-ChangKy/music-bar/%20/static/js/main.2b4b811f.js.map",
-    "453.81ede328.chunk.js.map": "/ASH-ChangKy/music-bar/%20/static/js/453.81ede328.chunk.js.map"
+    "main.css": "/ASH-ChangKy/music-bar/static/css/main.af191043.css",
+    "main.js": "/ASH-ChangKy/music-bar/static/js/main.a4b91e45.js",
+    "static/js/453.81ede328.chunk.js": "/ASH-ChangKy/music-bar/static/js/453.81ede328.chunk.js",
+    "static/media/logo.svg": "/ASH-ChangKy/music-bar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ASH-ChangKy/music-bar/index.html",
+    "main.af191043.css.map": "/ASH-ChangKy/music-bar/static/css/main.af191043.css.map",
+    "main.a4b91e45.js.map": "/ASH-ChangKy/music-bar/static/js/main.a4b91e45.js.map",
+    "453.81ede328.chunk.js.map": "/ASH-ChangKy/music-bar/static/js/453.81ede328.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af191043.css",
-    "static/js/main.2b4b811f.js"
+    "static/js/main.a4b91e45.js"
   ]
 }
