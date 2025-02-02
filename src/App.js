@@ -15,6 +15,7 @@ function App() {
             <Header/>
             <BrowserRouter>
                 <Routes>
+                    <Route path="/music-bar" element={Home()} />
                     <Route path="/music-bar/home" element={Home()} />
                     <Route path="/music-bar/information" element={Information()} />
                     <Route path="/music-bar/aboutBar" element={AboutBar()} />
