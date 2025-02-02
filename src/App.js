@@ -13,13 +13,13 @@ function App() {
   return (
       <Fragment>
             <Header/>
-            <BrowserRouter basename="/music-bar">
+            <BrowserRouter>
                 <Routes>
-                    <Route path="/home" element={Home()} />
-                    <Route path="/information" element={Information()} />
-                    <Route path="/aboutBar" element={AboutBar()} />
-                    <Route path="/drinkMenu" element={DrinkMenu()} />
-                    <Route path="/barLink" element={BarLink()} />
+                    <Route path="/music-bar/home" element={Home()} />
+                    <Route path="/music-bar/information" element={Information()} />
+                    <Route path="/music-bar/aboutBar" element={AboutBar()} />
+                    <Route path="/music-bar/drinkMenu" element={DrinkMenu()} />
+                    <Route path="/music-bar/barLink" element={BarLink()} />
                 </Routes>
             </BrowserRouter>
       </Fragment>
