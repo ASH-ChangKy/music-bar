@@ -11,7 +11,7 @@ export default function Header(){
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <img src={navLogo} className="wd-45-px navbar-brand"/>
-                        <a className="navbar-brand" href="/">Music Bar Kristy</a>
+                        <a className="navbar-brand" href={envType?"/music-bar/#/":"/"}>Music Bar Kristy</a>
                         <button type="button" className="navbar-toggle" data-toggle="collapse"
                                 data-target="#example-navbar-collapse">
                             <span className="sr-only">切换导航</span>s
