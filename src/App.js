@@ -18,9 +18,9 @@ function App() {
                     <Route path="/" element={Home()} />
                     <Route path="/home" element={Home()} />
                     <Route path="/music-bar/information" element={Information()} />
-                    <Route path="music-bar/aboutBar" element={AboutBar()} />
-                    <Route path="/drinkMenu" element={DrinkMenu()} />
-                    <Route path="/barLink" element={BarLink()} />
+                    <Route path="/music-bar/aboutBar" element={<div>About Me</div>} />
+                    <Route path="drinkMenu" element={DrinkMenu()} />
+                    <Route path="/barLink" element={<div>Bar Link</div>} />
                 </Routes>
             </BrowserRouter>
       </Fragment>
