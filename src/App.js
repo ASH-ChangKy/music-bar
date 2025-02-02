@@ -13,7 +13,7 @@ function App() {
   return (
       <Fragment>
             <Header/>
-            <BrowserRouter basename={"/music-bar"}>
+            <BrowserRouter basename="/music-bar">
                 <Routes>
                     <Route path="/home" element={Home()} />
                     <Route path="/information" element={Information()} />

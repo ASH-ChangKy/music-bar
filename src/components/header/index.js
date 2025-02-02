@@ -2,6 +2,7 @@ import './header.css';
 import React from 'react';
 import navLogo from '../../common/images/preview-xl-bl.jpg';
 
+const envType = process.env.NODE_ENV === 'production';
 export default function Header(){
     return (
         <div>
@@ -20,10 +21,10 @@ export default function Header(){
                     </div>
                     <div className="collapse navbar-collapse text-center" id="example-navbar-collapse">
                         <ul className="nav navbar-nav">
-                            <li><a href="/information">Information</a></li>
-                            <li><a href="/aboutBar">About Bar</a></li>
-                            <li><a href="/drinkMenu">Drink Menu</a></li>
-                            <li><a href="/barLink">link</a></li>
+                            <li><a href={envType?"/music-bar/information":"/information"}>Information</a></li>
+                            <li><a href={envType?"/music-bar/aboutBar":"/aboutBar"}>About Bar</a></li>
+                            <li><a href={envType?"/music-bar/drinkMenu":"/drinkMenu"}>Drink Menu</a></li>
+                            <li><a href={envType?"/music-bar/barLink":"/barLink"}>link</a></li>
                         </ul>
                     </div>
                 </div>
