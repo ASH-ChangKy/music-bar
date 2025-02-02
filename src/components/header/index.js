@@ -3,6 +3,7 @@ import React from 'react';
 import navLogo from '../../common/images/preview-xl-bl.jpg';
 
 const envType = process.env.NODE_ENV === 'production';
+console.log(envType);
 export default function Header(){
     return (
         <div>
